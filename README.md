@@ -1,3 +1,6 @@
+[![Actions Status](https://github.com/takuyaohashi/flutter_package_actions_test/workflows/Test/badge.svg)](https://github.com/takuyaohashi/flutter_package_actions_test/actions)
+
+
 # flutter_package_actions_test
 
 A new Flutter package.
