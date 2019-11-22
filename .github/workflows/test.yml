@@ -14,7 +14,7 @@ jobs:
         flutter-version: '1.9.1+hotfix.6'
     - name: install dependencies
       run: flutter pub get
-    - name: analysis
+    - name: analyze
       run: flutter analyze
     - name: test
       run: flutter test
