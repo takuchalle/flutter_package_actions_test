@@ -12,7 +12,18 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         flutter-version: '1.9.1+hotfix.6'
+    - name: cache pub
+      id: cache
+      uses: actions/cache@v1
+      with:
+        path: $PUB_CACHE
+        key: ${{ runner.OS }}-build-${{ hashFiles('pubspec.lock') }}
+        restore-keys: |
+          ${{ runner.OS }}-build-${{ env.cache-name }}-
+          ${{ runner.OS }}-build-
+          ${{ runner.OS }}-
     - name: install dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
       run: flutter pub get
     - name: test
       run: flutter test
