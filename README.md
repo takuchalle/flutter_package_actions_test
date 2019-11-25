@@ -1,5 +1,5 @@
 [![Actions Status](https://github.com/takuyaohashi/flutter_package_actions_test/workflows/Test/badge.svg)](https://github.com/takuyaohashi/flutter_package_actions_test/actions)
-
+[![codecov](https://codecov.io/gh/takuyaohashi/flutter_package_actions_test/branch/master/graph/badge.svg)](https://codecov.io/gh/takuyaohashi/flutter_package_actions_test)
 
 # flutter_package_actions_test
 
