@@ -7,4 +7,5 @@ A new Flutter package which use auto build and test on GitHub Actions.
 
 ## Articles
 
-* [How to auto test on GitHub Actions](https://flutter.takuchalle.dev/posts/how-to-test-on-github-actions/)
+* [How to auto test on GitHub Actions(in Japanese)](https://flutter.takuchalle.dev/posts/how-to-test-on-github-actions/)
+* [How to auto test coverage on GitHub Actions(in Japanese)](https://flutter.takuchalle.dev/posts/how-to-test-coverage-on-github-actions/)
